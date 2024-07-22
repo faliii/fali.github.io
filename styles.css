@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+header h1 {
+    margin: 0;
+    color: #333333;
+}
+
+nav {
+    background-color: #e0e0e0;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #666666;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#intro {
+    display: flex;
+    margin-bottom: 40px;
+    height: 250px;
+}
+
+.intro-left, .intro-right {
+    flex: 1;
+    padding: 20px;
+}
+
+.intro-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-left img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.intro-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.intro-right h2 {
+    margin-top: 0;
+}
+
+.intro-right p {
+    margin-bottom: 20px;
+}
+
+.intro-right button {
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.intro-right button:hover {
+    background-color: #555555;
+}
+
+.blog-posts {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.post {
+    width: 30%;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.post img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.post h3 {
+    margin: 10px 0 5px 0;
+}
+
+.post p {
+    margin: 5px 0 0 0;
+    color: #777777;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    color: #333333;
+}
